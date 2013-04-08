@@ -45,12 +45,14 @@ $(document).ready(function(e) {
 		                             }	//switch		   		
 		   }, "Práctica 1", "beep, vibrar, cancelar");
 		   });//funcion swipe
-   },false);
-   
-   		   $('table td').eq(1).text(device.name);
+		   
+		    $('table td').eq(1).text(device.name);
    		   $('table td').eq(3).text(device.cordova);
    		   $('table td').eq(5).text(device.platform);
    		   $('table td').eq(7).text(device.version);		   
-   		   $('table td').eq(9).text(device.UUID);		   
+   		   $('table td').eq(9).text(device.UUID);
+   },false);
+   
+   		  		   
 		   
 });
